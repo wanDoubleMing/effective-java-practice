@@ -75,6 +75,7 @@ public class Person {
         this.sex = builder.sex;
     }
 
+    @Override
     public String toString() {
         return "name=" + this.name + ";age=" + String.valueOf(this.age) + ";sex=" + this.sex +
                 ";height=" + String.valueOf(this.height) + ";carNo=" + this.cardNo + ";from=" + this.from;
